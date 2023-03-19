@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/yu/garlic
 
+# A/B
+AB_OTA_UPDATER := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := garlic
 
