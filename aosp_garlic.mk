@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Pixel Experience
+# Copyright (C) 2022 Lineageos
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := aosp_garlic
+PRODUCT_NAME := arrow_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu
