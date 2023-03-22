@@ -1,1 +1,1 @@
-# android_device_yu_garlic_arrowos11
+# android_device_yu_garlic_pixelexperience12
