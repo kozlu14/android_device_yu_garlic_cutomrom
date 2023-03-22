@@ -10,17 +10,6 @@
 
 DEVICE_PATH := device/yu/garlic
 
-# A/B
-AB_OTA_UPDATER := true
-
-# A/B
-AB_OTA_PARTITIONS += \
-    boot \
-    system \
-    recovery \
-    vendor \
-    vendor_boot
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := garlic
 
