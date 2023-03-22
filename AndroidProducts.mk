@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_garlic.mk
+    $(LOCAL_DIR)/arrow_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_garlic-eng \
-    aosp_garlic-user \
-    aosp_garlic-userdebug
+    arrow_garlic-eng \
+    arrow_garlic-user \
+    arrow_garlic-userdebug
