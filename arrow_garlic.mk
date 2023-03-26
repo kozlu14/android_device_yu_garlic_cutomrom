@@ -24,12 +24,13 @@ $(call inherit-product, device/yu/garlic/device.mk)
 # Inherit from common device
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some CesiumOS stuff
+$(call inherit-product, vendor/cesium/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := arrow_garlic
+PRODUCT_NAME := cesium_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu
