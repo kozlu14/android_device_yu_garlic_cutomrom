@@ -24,7 +24,9 @@ $(call inherit-product, device/yu/garlic/device.mk)
 # Inherit from common device
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from common ArrowOS configuration
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
