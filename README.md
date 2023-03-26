@@ -1,1 +1,1 @@
-# android_device_yu_garlic_pixelexperience12
+# android_device_yu_garlic_cesium11
