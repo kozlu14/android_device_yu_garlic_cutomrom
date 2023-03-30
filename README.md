@@ -1,1 +1,1 @@
-# android_device_yu_garlic_cesium11
+# android_device_yu_garlic_11
