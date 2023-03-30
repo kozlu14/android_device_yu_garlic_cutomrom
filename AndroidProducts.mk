@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_garlic.mk
+    $(LOCAL_DIR)/havoc_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_garlic-eng \
-    cesium_garlic-user \
-    cesium_garlic-userdebug
+    havoc_garlic-eng \
+    havoc_garlic-user \
+    havoc_garlic-userdebug
