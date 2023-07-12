@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_garlic.mk
+    $(LOCAL_DIR)/bliss_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_garlic-eng \
-    arrow_garlic-user \
-    arrow_garlic-userdebug
+    bliss_garlic-eng \
+    bliss_garlic-user \
+    bliss_garlic-userdebug
