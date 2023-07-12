@@ -24,14 +24,20 @@ $(call inherit-product, device/yu/garlic/device.mk)
 # Inherit from common device
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
-# Inherit from common ArrowOS configuration
+# Inherit some common NusantaraProject stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+
+# Extra Flags
+NAD_BUILD_TYPE := UNOFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := arrow_garlic
+PRODUCT_NAME := nad_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu
